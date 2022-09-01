@@ -1,2 +1,7 @@
+async function main() {
+    let res = await fetch('http://localhost:3001/listBooks')
 
-// Your Code Here
+    let books = res.json()
+}
+
+main()
